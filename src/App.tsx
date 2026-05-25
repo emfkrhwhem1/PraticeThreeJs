@@ -21,7 +21,7 @@ const App: React.FC = () => {
     camera.position.z = 2;
 
     const geometry = new THREE.BoxGeometry(1, 1, 1);
-    const material = new THREE.MeshBasicMaterial({ color: 0x3b82f6 });
+    const material = new THREE.MeshPhongMaterial({ color: 0x44aa88 });
     const cube = new THREE.Mesh(geometry, material);
     scene.add(cube);
 
